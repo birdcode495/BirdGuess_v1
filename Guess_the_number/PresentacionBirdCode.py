@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ Creation of graphical interface ------------------------------------------------------
 
-# -----------------------------------------Temas tratados: Creación inicial de interfaz gráfica y reproducción de audio con Python ------------------
+# -----------------------------------------Temas tratados: Creación inicial de interfaz gráfica y reproducción de audio con Python --------------------
 
 from tkinter import *
 
