@@ -1,10 +1,10 @@
 # Classes creation in BirdCode with Python
 
-# ------------------------------------------------ ----------------DEFINITION OF CLASS BIRD ------------------------------------------------------------------------------
+# ------------------------------------------------ ----------------DEFINITION OF CLASS BIRD -------------------------------------------------------------------
 
 
-# ----------------------------------------------- ------------Definition of Bird Class properties ---------------------------------------------------------------------
-# -----------------------------Each group of students must reserach about the birds properties and enrich this definition set ----------------------------------------
+# ----------------------------------------------- ------------Definition of Bird Class properties and states --------------------------------------------------
+# -----------------------------Each group of students must research about the birds properties and states and enrich this definition set ----------------------
 
 class Bird():
 
@@ -31,6 +31,9 @@ class Bird():
 	InFrench = "oiseaux"
 	InGerman = "Vögel"
 	InChinese = "鸟类"
+	fly = False
+	sing = False
+	eat = False
 
 
 
