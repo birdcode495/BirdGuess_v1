@@ -1,9 +1,13 @@
-# Classes creation in BirdCode with Python
-
-# ------------------------------------------------ ----------------DEFINITION OF CLASS BIRD -------------------------------------------------------------------
 
 
-# ----------------------------------------------- ------------Definition of Bird Class properties and states --------------------------------------------------
+# --------------------------------------------------------CLASSES CREATION IN BIRDCODE WITH PYTHON ---------------------------------------------------------
+
+
+
+# -----------------------------------------------------------------DEFINITION OF CLASS BIRD -------------------------------------------------------------------
+
+
+# ------------------------------------------------------------Definition of Bird Class properties and states --------------------------------------------------
 # -----------------------------Each group of students must research about the birds properties and states and enrich this definition set ----------------------
 
 class Bird():
@@ -41,6 +45,16 @@ class Bird():
 
 	def TakeOff(self):
 		self.fly = True
+
+
+# --------------------------------------------- Creation of the first object which belongs to the class Bird ------------------------------------------------
+
+
+AndeanEmerald = Bird()
+
+
+
+
 
 
 
