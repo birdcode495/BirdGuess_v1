@@ -36,6 +36,15 @@ class Bird():
 	eat = False
 
 
+# ---------------------------------------------- Definition of methods of the class Bird --------------------------------------------------------------------
+
+
+	def TakeOff(self):
+		self.fly = True
+
+
+
+
 
 
 
