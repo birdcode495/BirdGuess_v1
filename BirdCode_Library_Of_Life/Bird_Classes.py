@@ -53,7 +53,12 @@ class Bird():
 AndeanEmerald = Bird()
 
 
+# ---------------------------------------------------------- First printing of Bird class data --------------------------------------------------------------
 
+
+print("The english name of the Class to which this bird belongs to is: ", AndeanEmerald.InEnglish)
+print()
+print("The chinese name of the Class to which this bird belongs to is: ", AndeanEmerald.InChinese)
 
 
 
