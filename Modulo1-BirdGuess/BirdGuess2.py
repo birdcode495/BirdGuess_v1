@@ -6,7 +6,7 @@
 
 #                BirdGuess (version 1) is a serious game developed by the Technical Team of the company BirdCode S.A.S., focused on the training 
 #                of teachers and students of middle and high school for the construction of basic academic and work skills in software
-#                programming using the language of Python. The workflow and algorithms of the Classroom Research Project
+#                programming using the Python programming language. The workflow and algorithms of the Classroom Research Project
 #                contemplate the design, structuring and execution of a set of activities in which STEM conceptual and methodological
 #                elements are presented, that integrate theoretical topics of basic development in Python and application practices of  
 #                the contents seen, in order to develop the serious game, in which the end user or player must guess numerical data  
