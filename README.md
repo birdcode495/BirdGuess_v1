@@ -69,7 +69,10 @@ BirdCode S.A.S. busca posicionarse como una empresa líder en el desarrollo de s
 ## CONTACTA CON BIRDCODE
 
 
-E-mail: birdcode.py@gmail.com, birdcode.cali@gmail.com
+E-mail 1: birdcode.py@gmail.com 
+
+E - mail 2: birdcode.cali@gmail.com
+
 Línea móvil: +(57) 315 5429106
 
 
