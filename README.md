@@ -1,6 +1,6 @@
 # BIRDGUESS VERSION 1
 
-BirdGuess v1 es un juego serio que corresponde al Módulo 1 del curso virtual de programación con Python para la capacitación de docentes y estudiantes de educación básica secundaria y media vocacional siguiendo la metodología BirdCode. El producto final de este módulo de capacitación es el desarrollo del juego serio BirdGuess en su versión 1. Las siguientes versiones del juego corren por cuenta de los grupos de estudiantes aprendices de desarrolladores, por medio del mejoramiento e innovación tecnológica que estos llevarán a cabo mediante los retos propuestos en el curso. Los contenidos de formación en programación correspondientes al Módulo 1 son:
+BirdGuess v1 es un juego serio desarrollado por la empresa BirdCode S.A.S., que corresponde al Módulo 1 del curso virtual de programación con Python para la capacitación de docentes y estudiantes de educación básica secundaria y media vocacional siguiendo la metodología BirdCode. El producto final de este módulo de capacitación es el desarrollo del juego serio BirdGuess en su versión 1. Las siguientes versiones del juego corren por cuenta de los grupos de estudiantes aprendices de desarrolladores, por medio del mejoramiento e innovación tecnológica que estos llevarán a cabo mediante los retos propuestos en el curso. Los contenidos de formación en programación correspondientes al Módulo 1 son:
 
 
 * Tipos de datos y operadores en Python.
