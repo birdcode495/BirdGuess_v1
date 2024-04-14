@@ -46,6 +46,8 @@ La estrategia de división del trabajo y de formación de grupos de estudiantes 
 * Colaboración con los otros tres (3) compañeros para el diseño e implementación de los elementos del juego que permitan asumir los Retos Propuestos en el Curso Virtual y construcción de sistema de control de versiones con GIT y del repositorio remoto en GitHub (Componentes Tecnológico, de Biodiversidad y de Trilinguismo).
 
 
+
+
 ## QUIENES SOMOS
 
 BirdCode S.A.S. es una empresa dedicada al desarrollo de soluciones de software y de bases de datos enfocados en la capacitación de personal de instituciones educativas y empresas, cuyo enfoque temático principal son las áreas de tecnologías, riqueza y valor económico de la biodiversidad y trilinguismo.
