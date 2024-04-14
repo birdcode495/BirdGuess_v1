@@ -46,3 +46,22 @@ La estrategia de división del trabajo y de formación de grupos de estudiantes 
 * Colaboración con los otros tres (3) compañeros para el diseño e implementación de los elementos del juego que permitan asumir los Retos Propuestos en el Curso Virtual y construcción de sistema de control de versiones con GIT y del repositorio remoto en GitHub (Componentes Tecnológico, de Biodiversidad y de Trilinguismo).
 
 
+## QUIENES SOMOS
+
+BirdCode S.A.S. es una empresa dedicada al desarrollo de soluciones de software y de bases de datos enfocados en la capacitación de personal de instituciones educativas y empresas, cuyo enfoque temático principal son las áreas de tecnologías, riqueza y valor económico de la biodiversidad y trilinguismo.
+
+El portafolio de servicios de BirdCode S.A.S. incluye la producción de cursos virtuales sobre tecnología, el desarrollo de juegos serios con el componente temático de biodiversidad y trilinguismo y el diseño y comercialización de material cartográfico informativo enfocado en los temas mencionados.
+
+### Misión
+
+La empresa BirdCode S.A.S. tiene la misión de producir contenidos pedagógicos virtuales de calidad para la educación complementaria, enfocados en la capacitación de docentes y estudiantes de colegios públicos y privados en el desarrollo de software por medio de estrategias formativas interdisciplinares dirigidas a promover la construcción colectiva de conocimiento sobre la riqueza de biodiversidad en regiones administrativas y territorios locales con un componente transversal en trilinguismo, que derive en la generación de valor agregado consistente en el diseño de productos tecnológicos por parte de nuestros estudiantes que satisfagan necesidades específicas del mercado en sectores como el turismo, las comunicaciones en materia ambiental y la innovación tecnológica.
+
+Los esfuerzos en materia de producción de material educativo se enmarcan en el contexto actual y las necesidades específicas del país frente a la realización de la Conferencia de Las partes del Convenio de Diversidad Biológica y busca impulsar un portafolio de formación virtual que contribuya al posicionamiento de Colombia como nación anfitriona líder en el diseño de estrategias para lograr el cumplimiento de las Metas del Marco Kunming – Montreal, específicamente en el Objetivo B y la Sección K referente a los objetivos de Comunicación, Información y Educación y que aboga por un cambio en el comportamiento de la ciudadanía y los futuros profesionales frente al tema de la crisis ambiental y la oportunidad que esta supone para el desarrollo de Proyectos Productivos
+
+
+### Visión
+
+BirdCode S.A.S. busca posicionarse como una empresa líder en el desarrollo de software enfocado en la educación ambiental y el trilinguismo para el año 2030, formando personal docente y alumnado de colegios públicos y privados de Colombia y el mundo, contribuyendo al diseño por parte de las instituciones educativas de espacios presenciales y virtuales de investigación en el aula en el que trabajo colaborativo entre grupos de estudiantes se establezca como el eje de división de tareas para el desarrollo de código, la investigación de datos y la utilidad económica de la biodiversidad, el diseño gráfico y la integración del trilinguismo, que derive en esfuerzos coordinados y conjuntos para la obtención de resultados en materia del diseño de productos tecnológicos que satisfagan necesidades del mercado en áreas como la promoción de territorios como destinos turísticos de naturaleza, la comunicación en materia ambiental y la innovación tecnológica.   
+
+
+
