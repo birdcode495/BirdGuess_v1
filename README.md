@@ -29,7 +29,7 @@ BirdGuess v1 es un juego serio que corresponde al Módulo 1 del curso virtual de
 * Otros portales en internet desde donde se obtuvo elementos adicionales incorporados en el juego serio como audios, logotipos e información específica de las especies escogidas.
 
 
-### ESTRATEGIA DE DIVISIÓN DEL TRABAJO Y DE FORMACIÓN DE GRUPOS DE INVESTIGACIÓN EN EL AULA
+### Estrategia de división del trabajo y de formación de grupos dde investigación en el aula
 
 La estrategia de división del trabajo y de formación de grupos de estudiantes que se propone desde la metodología BirdCode consiste en la conformación de grupos de cuatro (4) estudiantes, cada uno de los cuales debe asumir la responsabilidad de trabajar de forma colaborativa y con retroalimentación de resultados y colaboración efectiva de forma presencial y virtual con sus compañeros en uno de los siguientes ejes temáticos de cada Módulo desarrollado:
 
