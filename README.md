@@ -66,4 +66,14 @@ Los esfuerzos en materia de producción de material educativo se enmarcan en el 
 BirdCode S.A.S. busca posicionarse como una empresa líder en el desarrollo de software enfocado en la educación ambiental y el trilinguismo para el año 2030, formando personal docente y alumnado de colegios públicos y privados de Colombia y el mundo, contribuyendo al diseño por parte de las instituciones educativas de espacios presenciales y virtuales de investigación en el aula en el que trabajo colaborativo entre grupos de estudiantes se establezca como el eje de división de tareas para el desarrollo de código, la investigación de datos y la utilidad económica de la biodiversidad, el diseño gráfico y la integración del trilinguismo, que derive en esfuerzos coordinados y conjuntos para la obtención de resultados en materia del diseño de productos tecnológicos que satisfagan necesidades del mercado en áreas como la promoción de territorios como destinos turísticos de naturaleza, la comunicación en materia ambiental y la innovación tecnológica.   
 
 
+## CONTACTA CON BIRDCODE
+
+
+E-mail: birdcode.py@gmail.com, birdcode.cali@gmail.com
+Línea móvil: +(57) 315 5429106
+
+
+
+
+
 
