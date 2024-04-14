@@ -17,7 +17,7 @@ BirdGuess v1 es un juego serio que corresponde al Módulo 1 del curso virtual de
   Tópicos adicionales transversales – Consulta, descarga y gestión de datos de biodiversidad (elencos de especies), gestión de archivos              fotográficos, gestión de archivos de audio, etc.
 
 
-## Tecnologías y fuentes de datos utilizadas para el desarrollo del juego serio BirdGuess
+### Tecnologías y fuentes de datos utilizadas para el desarrollo del juego serio BirdGuess
 
 * Lenguaje de programación Python 3.x
 * Global Biodiversity Information Facility API (Fuente de datos sobre biodiversidad (datos y fotografías) de halcones y colibries avistados en el departamento de Cundinamarca en Colombia.
@@ -27,4 +27,15 @@ BirdGuess v1 es un juego serio que corresponde al Módulo 1 del curso virtual de
 * Corporación Autónoma Regional de Cundinamarca CAR. Guía de Colibries de Cundinamarca. Bogotá. 2018. (Documento del que obtuvo el registro fotográfico de biodiversidad de especies de colibries reportadas para el territorio del departamento de Cundinamarca en Colombia).
 * Xeno Canto Portal (Portal para la descarga de sonidos ambientales de las especies).
 * Otros portales en internet desde donde se obtuvo elementos adicionales incorporados en el juego serio como audios, logotipos e información específica de las especies escogidas.
+
+
+### ESTRATEGIA DE DIVISIÓN DEL TRABAJO Y DE FORMACIÓN DE GRUPOS DE INVESTIGACIÓN EN EL AULA
+
+La estrategia de división del trabajo y de formación de grupos de estudiantes que se propone desde la metodología BirdCode consiste en la conformación de grupos de cuatro (4) estudiantes, cada uno de los cuales debe asumir la responsabilidad de trabajar de forma colaborativa y con retroalimentación de resultados y colaboración efectiva de forma presencial y virtual con sus compañeros en uno de los siguientes ejes temáticos de cada Módulo desarrollado:
+
+* Desarrollo de código Python del juego serio a construir (Componente Tecnológico).
+* Construcción de base de datos correspondiente al elenco de especies escogido (Desarrollo de código, revisión y gestión de la información de biodiversidad en el portal GBIF y otros en internet y gestión de archivos fotográficos y de audio (Componente Tecnológico y de Biodiversidad).
+* Grabación de audios que componen el juego serio en uno o dos idiomas (Componente de Trilinguismo).
+* Colaboración con los otros tres (3) compañeros para el diseño e implementación de los elementos del juego que permitan asumir los Retos Propuestos en el Curso Virtual y construcción de sistema de control de versiones con GIT y del repositorio remoto en GitHub (Componentes Tecnológico, de Biodiversidad y de Trilinguismo).
+
 
