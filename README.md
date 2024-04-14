@@ -29,6 +29,13 @@ BirdGuess v1 es un juego serio que corresponde al Módulo 1 del curso virtual de
 * Otros portales en internet desde donde se obtuvo elementos adicionales incorporados en el juego serio como audios, logotipos e información específica de las especies escogidas.
 
 
+### Componente BirdCode trabajo colaborativo en el aula de educación secundaria y media vocacional
+
+El Componente BirdCode para el Trabajo Colaborativo en el Aula consiste en el diseño de una estrategia de Comunicación, Información y Educación, de acuerdo a las directrices del Marco Kunming – Montreal, mediante el cual se propone a las instituciones educativas la implementación de un repositorio remoto propio para el alojamiento de los resultados de desarrollo de código Python con sus alumnos que les permita socializar, promover y comercializar los productos digitales que construyan con sus grupos de estudiantes aprendices de programadores y, por supuesto, realizar un aporte al proceso de construcción colectiva de conocimiento sobre biodiversidad de su región administrativa o área local que constituye su contexto territorial. 
+
+El repositorio remoto se puede construir a través de un flujo de trabajo en el que se incluyen dos tecnologías: GIT y GitHub. La primera es la herramienta que los colegios utilizarán para crear el sistema de control de versiones correspondiente a cada grupo de trabajo y se instala de manera local en los ordenadores de la institución y en los PC personales de los estudiantes. La segunda es la red social de desarrolladores en la nube que se propone para que la institución publique las versiones de juegos serios creados por sus alumnos.  
+
+
 ### Estrategia de división del trabajo y de formación de grupos dde investigación en el aula
 
 La estrategia de división del trabajo y de formación de grupos de estudiantes que se propone desde la metodología BirdCode consiste en la conformación de grupos de cuatro (4) estudiantes, cada uno de los cuales debe asumir la responsabilidad de trabajar de forma colaborativa y con retroalimentación de resultados y colaboración efectiva de forma presencial y virtual con sus compañeros en uno de los siguientes ejes temáticos de cada Módulo desarrollado:
