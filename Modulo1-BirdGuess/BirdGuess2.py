@@ -62,6 +62,10 @@ from BirdGuess_Info import BirdGuess_chinese
 
 from BirdGuess_Info import BirdGuess_pinyin
 
+from secret_messages import *
+
+from cipher_prac1_caesar import *
+
 
 # ------------------------------------------------------ 
 
@@ -267,6 +271,18 @@ def Challenge3():
 	raiz_challng3.mainloop()
 
 
+def caesarCipher():
+
+	caesar_cipher = tk.Tk()
+	caesar_cipher.title("Caesar Cipher")
+	caesar_cipher_frame = Frame(caesar_cipher)
+	caesar_cipher_frame.pack()
+	caesar_cipher_image = PhotoImage(file = "ImplementTheCaesarCipherInPython.png")
+	Label(caesar_cipher_frame, image = caesar_cipher_image).pack()
+
+	caesar_cipher.mainloop()
+
+
 def Challenge_1():
 
 	def DataPrint():
@@ -462,6 +478,13 @@ def info_display():
 	playsound("idea-1.mp3")
 	print("     * The pinyin (chinese phonetic transcription system) is: ", BirdGuess_pinyin_k[index]) 
 	print()
+	time.sleep(1)
+	playsound("idea-1.mp3")
+	print('''      * The secret message about this species is: Uhzzvatoveqf ner oveqf angvir gb gur Nzrevpnf naq 
+		pbzcevfr gur ovbybtvpny snzvyl Gebpuvyvqnr. Jvgu nccebkvzngryl 366 fcrpvrf naq 113 traren, gurl 
+		bpphe sebz Nynfxn gb Gvreen qry Shrtb, ohg zbfg fcrpvrf ner sbhaq va Prageny naq Fbhgu Nzrevpn. 
+		Nf bs 2024, 21 uhzzvatoveq fcrpvrf ner yvfgrq nf raqnatrerq be pevgvpnyyl raqnatrerq, jvgu ahzrebhf 
+		fcrpvrf qrpyvavat va cbchyngvba.''')
 	time.sleep(3)
 	
 info_display()
@@ -606,6 +629,7 @@ while End == False or lives > 0:
 		print()
 		print("   Guess the size in centimeters of ", BirdGuess_english_k[index])
 		print()
+		playsound("try_guess.mp3")
 		guess = float(input("   Enter the size of the bird: "))
 		print()
 		attempts = attempts + 1
@@ -660,15 +684,38 @@ while End == False or lives > 0:
 		secretSize = BirdGuess_list_k[index][1]
 		print()
 		print()
+		print()
+		print("-------------------------- DECIPHER THE SECRET MESSAGE ABOUT THIS BIRD!!!! ------------------")
+		print()
+		print()
+		playsound("radar-ufo.mp3")
+		playsound("sonar-radar.mp3")
+		time.sleep(3)
+		caesarCipher()
+		playsound("DecipherMessage.mp3")
+		print("      ", secret_messages[0])
+		message = getMessage()
+		print()
+		playsound('MessageClueObtained.mp3')
+		playsound('SecretClue.mp3')
+		playsound('WriteTheClue.mp3')
+		key = getKey()
+		print()
+		print('        Your translated text is: ')
+		print()
+		print("      ", getTranslatedMessage(message, key))
+		time.sleep(30)
 		Challenge3()
 		GUI_Creation()
 		info_display()
+		print()
 		print()
 		print("----------------------- BIRDGUESS - DATA GUESSING OF BIRD BIODIVERSITY. LETS PLAY NOW!!! ---------------------")
 		print()
 		print("   Guess the size in centimeters of: ", BirdGuess_english_k[index])
 		attempts = 0
 		print()
+		playsound("try_guess.mp3")
 		guess = float(input("   Enter the size of the bird: "))
 		print()
 		attempts = attempts + 1
