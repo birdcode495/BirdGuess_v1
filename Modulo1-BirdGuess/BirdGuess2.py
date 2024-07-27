@@ -96,7 +96,7 @@ BirdGuess_pinyin_k = BirdGuess_pinyin
 
 
 print()
-print("   BIRDGUESS - A PROGRAM TO GUESS THE SIZES OF FALCONS AND HUMMINGBIRDS THAT HAVE BEEN SEEN IN BOGOTÁ - COLOMBIA")
+print("     BIRDGUESS - A PROGRAM TO GUESS THE SIZES OF FALCONS AND HUMMINGBIRDS THAT HAVE BEEN SEEN IN BOGOTÁ - COLOMBIA")
 
 print()
 playsound("welcome.mp3")
@@ -105,7 +105,7 @@ username = input("   Please enter your name: ")
 
 print()
 
-print("   Welcome to BirdCode. ", username,  "!!! Now we are going to learn how to develop serious games with Python about colombian biodiversity")
+print("     Welcome to BirdCode. ", username,  "!!! Now we are going to learn how to develop serious games with Python about colombian biodiversity")
 
 print()
 
@@ -273,12 +273,63 @@ def Challenge3():
 
 def caesarCipher():
 
+	def CaesarExplanat():
+
+		playsound("CaesarCipherExplanation0A.mp3")
+		
+	
+	def CaesarExplanat2():
+
+		playsound("CaesarCipherExplanation0B.mp3")
+
+	def CaesarExplanat3():
+
+		playsound("CaesarCipherExplanation1.mp3")
+
+	def CaesarExplanat4():
+
+		playsound("CaesarCipherExplanation2.mp3")
+
+	def CaesarExplanat5():
+
+		playsound("CaesarCipherExplanation3.mp3")
+
+	def CaesarChallenge():
+
+		playsound("CaesarChallenge.mp3")
+
+		
+
 	caesar_cipher = tk.Tk()
 	caesar_cipher.title("Caesar Cipher")
 	caesar_cipher_frame = Frame(caesar_cipher)
 	caesar_cipher_frame.pack()
 	caesar_cipher_image = PhotoImage(file = "ImplementTheCaesarCipherInPython.png")
 	Label(caesar_cipher_frame, image = caesar_cipher_image).pack()
+
+	CaesarExplanation = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat())
+	CaesarExplanation.config(fg = "#a9a70a")
+	CaesarExplanation.place(x = 1100, y = 50)
+
+	CaesarExplanation2 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat2())
+	CaesarExplanation2.config(fg = "#a9a70a")
+	CaesarExplanation2.place(x = 1100, y = 100)
+
+	CaesarExplanation3 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat3())
+	CaesarExplanation3.config(fg = "#a9a70a")
+	CaesarExplanation3.place(x = 1100, y = 150)
+
+	CaesarExplanation4 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat4())
+	CaesarExplanation4.config(fg = "#a9a70a")
+	CaesarExplanation4.place(x = 1100, y = 200)
+
+	CaesarExplanation5 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat5())
+	CaesarExplanation5.config(fg = "#a9a70a")
+	CaesarExplanation5.place(x = 1100, y = 250)
+
+	CaesarExplanation6 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarChallenge())
+	CaesarExplanation6.config(fg = "#a9a70a")
+	CaesarExplanation6.place(x = 1100, y = 300)
 
 	caesar_cipher.mainloop()
 
@@ -358,8 +409,6 @@ def Challenge345():
 	Label(miFrame_challng2, image = miImagen_challng2).pack()
 
 	raiz_challng2.mainloop()
-
-
 
 
 GUI_Creation()
@@ -480,7 +529,7 @@ def info_display():
 	print()
 	time.sleep(1)
 	playsound("idea-1.mp3")
-	print('''      * The secret message about this species is: Uhzzvatoveqf ner oveqf angvir gb gur Nzrevpnf naq 
+	print('''     * The secret message about this species is: Uhzzvatoveqf ner oveqf angvir gb gur Nzrevpnf naq 
 		pbzcevfr gur ovbybtvpny snzvyl Gebpuvyvqnr. Jvgu nccebkvzngryl 366 fcrpvrf naq 113 traren, gurl 
 		bpphe sebz Nynfxn gb Gvreen qry Shrtb, ohg zbfg fcrpvrf ner sbhaq va Prageny naq Fbhgu Nzrevpn. 
 		Nf bs 2024, 21 uhzzvatoveq fcrpvrf ner yvfgrq nf raqnatrerq be pevgvpnyyl raqnatrerq, jvgu ahzrebhf 
@@ -693,7 +742,7 @@ while End == False or lives > 0:
 		time.sleep(3)
 		caesarCipher()
 		playsound("DecipherMessage.mp3")
-		print("      ", secret_messages[0])
+		print("     ", secret_messages[0])
 		message = getMessage()
 		print()
 		playsound('MessageClueObtained.mp3')
@@ -703,7 +752,7 @@ while End == False or lives > 0:
 		print()
 		print('        Your translated text is: ')
 		print()
-		print("      ", getTranslatedMessage(message, key))
+		print("     ", getTranslatedMessage(message, key))
 		time.sleep(30)
 		Challenge3()
 		GUI_Creation()
