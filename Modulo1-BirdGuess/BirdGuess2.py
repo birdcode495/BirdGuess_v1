@@ -93,7 +93,17 @@ BirdGuess_pinyin_k = BirdGuess_pinyin
 # ----------------------------- Temas tratados: Función print(), función time.sleep(), función input() y reproducción de audio ----------------------------
 
 
+playsound('Milvago_chimachima.wav')
 
+birdGuess = tk.Tk()
+
+birdGuess.title("BirdGuess: A serious game for secret numbers guessing")
+birdGuess_frame = Frame(birdGuess)
+birdGuess_frame.pack()
+birdGuess_image = PhotoImage(file = "BirdGuess_logo2.png")
+Label(birdGuess_frame, image = birdGuess_image).pack()
+
+birdGuess.mainloop()
 
 print()
 print("     BIRDGUESS - A PROGRAM TO GUESS THE SIZES OF FALCONS AND HUMMINGBIRDS THAT HAVE BEEN SEEN IN BOGOTÁ - COLOMBIA")
