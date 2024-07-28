@@ -539,11 +539,9 @@ def info_display():
 	print()
 	time.sleep(1)
 	playsound("idea-1.mp3")
-	print('''     * The secret message about this species is: Uhzzvatoveqf ner oveqf angvir gb gur Nzrevpnf naq 
-		pbzcevfr gur ovbybtvpny snzvyl Gebpuvyvqnr. Jvgu nccebkvzngryl 366 fcrpvrf naq 113 traren, gurl 
-		bpphe sebz Nynfxn gb Gvreen qry Shrtb, ohg zbfg fcrpvrf ner sbhaq va Prageny naq Fbhgu Nzrevpn. 
-		Nf bs 2024, 21 uhzzvatoveq fcrpvrf ner yvfgrq nf raqnatrerq be pevgvpnyyl raqnatrerq, jvgu ahzrebhf 
-		fcrpvrf qrpyvavat va cbchyngvba.''')
+	print("     * The secret message about this species is: ")
+	print()
+	print("     ", secret_messages[0])
 	time.sleep(3)
 	
 info_display()
@@ -696,7 +694,7 @@ while End == False or lives > 0:
 	elif guess != secretSize and attempts == 7 and lives == 1:
 
 		print()
-		print("-------------------- RESULTS ----------------------------------------------------")
+		print("------------------------------------------- RESULTS ------------------------------------------------------")
 		print()
 		print("   Now you have no lives. Game over")
 		lives = lives - 1
@@ -722,7 +720,7 @@ while End == False or lives > 0:
 	elif guess == secretSize and attempts <= 7 and len(BirdGuess_list_k) > 1:
 
 		print()
-		print("-------------------------- RESULTS ----------------------------------------------------")
+		print("-------------------------------------------- RESULTS ----------------------------------------------------")
 		print()
 		print("   Congratulations!!! You guessed the size of the bird I was thinking of. You have earned 10 points!!!")
 		#hit = True
@@ -744,7 +742,7 @@ while End == False or lives > 0:
 		print()
 		print()
 		print()
-		print("-------------------------- DECIPHER THE SECRET MESSAGE ABOUT THIS BIRD!!!! ------------------")
+		print("------------------------ DECIPHER THE SECRET MESSAGE ABOUT THIS BIRD!!!! -------------------------------")
 		print()
 		print()
 		playsound("radar-ufo.mp3")
@@ -763,7 +761,7 @@ while End == False or lives > 0:
 		print('        Your translated text is: ')
 		print()
 		print("     ", getTranslatedMessage(message, key))
-		time.sleep(30)
+		time.sleep(50)
 		Challenge3()
 		GUI_Creation()
 		info_display()
@@ -782,7 +780,7 @@ while End == False or lives > 0:
 	elif guess == secretSize and attempts <= 7 and len(BirdGuess_list_k) == 1:
 
 		
-		print("------------------------- RESULTS ----------------------------------------------------")
+		print("-------------------------------------------- RESULTS ----------------------------------------------------")
 		print()
 		print("   Congratulations!!! You guessed the size of the bird I was thinking of. You have earned 10 points!!!")
 		playsound("Congratulations.mp3")
