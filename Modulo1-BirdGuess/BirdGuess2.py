@@ -95,6 +95,8 @@ BirdGuess_pinyin_k = BirdGuess_pinyin
 
 playsound('Milvago_chimachima.wav')
 
+match = False
+
 birdGuess = tk.Tk()
 
 birdGuess.title("BirdGuess: A serious game for secret numbers guessing")
@@ -231,23 +233,40 @@ def Challenge2():
 
 def GUI_Creation():
 
+	global match
+
+	def bird_singing():
+
+		if match == False:
+
+			playsound("ableHearSong.mp3")
+
+		elif match == True:
+
+			playsound("Singing_Rupornis_magnirostris.wav")
+
 	raiz = Tk()
 
 	raiz.title(BirdGuess_english_k[index])
 
 	raiz.iconbitmap()
 
-	miFrame = Frame(raiz)
+	miFrame = tk.Frame(raiz)
 
 	miFrame.pack()
 
 	miImagen = PhotoImage(file = BirdGuess_list_k[index][0])
+	bird_singing_logo = tk.PhotoImage(file="Singing-logo4.png")
 
 	Label(miFrame, image=miImagen).pack()
+	
 
-	Button = tk.Button(raiz, text = "Close Window", command = raiz.destroy)
+	Button = tk.Button(raiz, text = "Close Window", font = ("Comic Sans MS", 11), command = raiz.destroy)
 	Button.config(fg = "#fa7704")
-	Button.place(x = 20, y = 20)
+	Button.place(x = 20, y = 150)
+
+	Button_song = tk.Button(raiz, image = bird_singing_logo, command = lambda:bird_singing())
+	Button_song.place(x = 20, y = 20)
 
 	raiz.mainloop()
 
@@ -317,27 +336,27 @@ def caesarCipher():
 	caesar_cipher_image = PhotoImage(file = "ImplementTheCaesarCipherInPython.png")
 	Label(caesar_cipher_frame, image = caesar_cipher_image).pack()
 
-	CaesarExplanation = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat())
+	CaesarExplanation = tk.Button(caesar_cipher, text = "Introduction", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat())
 	CaesarExplanation.config(fg = "#a9a70a")
 	CaesarExplanation.place(x = 1100, y = 50)
 
-	CaesarExplanation2 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat2())
+	CaesarExplanation2 = tk.Button(caesar_cipher, text = "Presentation", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat2())
 	CaesarExplanation2.config(fg = "#a9a70a")
 	CaesarExplanation2.place(x = 1100, y = 100)
 
-	CaesarExplanation3 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat3())
+	CaesarExplanation3 = tk.Button(caesar_cipher, text = "Justification", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat3())
 	CaesarExplanation3.config(fg = "#a9a70a")
 	CaesarExplanation3.place(x = 1100, y = 150)
 
-	CaesarExplanation4 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat4())
+	CaesarExplanation4 = tk.Button(caesar_cipher, text = "History and use", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat4())
 	CaesarExplanation4.config(fg = "#a9a70a")
-	CaesarExplanation4.place(x = 1100, y = 200)
+	CaesarExplanation4.place(x = 1090, y = 200)
 
-	CaesarExplanation5 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat5())
+	CaesarExplanation5 = tk.Button(caesar_cipher, text = "Applications", font = ("Comic Sans MS", 13), command = lambda:CaesarExplanat5())
 	CaesarExplanation5.config(fg = "#a9a70a")
 	CaesarExplanation5.place(x = 1100, y = 250)
 
-	CaesarExplanation6 = tk.Button(caesar_cipher, text = "Caesar Cipher", font = ("Comic Sans MS", 13), command = lambda:CaesarChallenge())
+	CaesarExplanation6 = tk.Button(caesar_cipher, text = "Challenges", font = ("Comic Sans MS", 13), command = lambda:CaesarChallenge())
 	CaesarExplanation6.config(fg = "#a9a70a")
 	CaesarExplanation6.place(x = 1100, y = 300)
 
@@ -541,7 +560,7 @@ def info_display():
 	playsound("idea-1.mp3")
 	print("     * The secret message about this species is: ")
 	print()
-	print("     ", secret_messages[0])
+	print("     ", secret_messages[10])
 	time.sleep(3)
 	
 info_display()
@@ -623,18 +642,17 @@ print()
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-playsound("try_guess.mp3")
-
-
 secretSize = BirdGuess_list_k[index][1]
 
 
 print()
-print("---------------------- BIRDGUESS - DATA GUESSING OF BIRD BIODIVERSITY. LETS PLAY NOW!!! ---------------------")
+print("---------------------- BIRDGUESS - BIRD BIODIVERSITY SECRET NUMBERS GUESSING. LETS PLAY NOW!!! ---------------------")
 print()
+time.sleep(3)
+
+
+playsound("WelcomeSecretNumbers.mp3")
+playsound("try_guess.mp3")
 
 print("   Guess the size in centimeters of: ", BirdGuess_english_k[index])  # --- Trabaje en el RETO 2
 
@@ -723,22 +741,10 @@ while End == False or lives > 0:
 		print("-------------------------------------------- RESULTS ----------------------------------------------------")
 		print()
 		print("   Congratulations!!! You guessed the size of the bird I was thinking of. You have earned 10 points!!!")
+		print("   Now you have: ", points, " points.")
 		#hit = True
 		points = points + 10
 		playsound("Congratulations.mp3")
-		time.sleep(3)
-		print()
-		print("   Now you have: ", points, " points.")
-		del BirdGuess_list_k[index]
-		del BirdGuess_sci_k[index]
-		del BirdGuess_Spanish_k[index]
-		del BirdGuess_english_k[index]
-		del BirdGuess_french_k[index]
-		del BirdGuess_german_k[index]
-		del BirdGuess_chinese_k[index]
-		del BirdGuess_pinyin_k[index]
-		IndexCreation()
-		secretSize = BirdGuess_list_k[index][1]
 		print()
 		print()
 		print()
@@ -750,18 +756,50 @@ while End == False or lives > 0:
 		time.sleep(3)
 		caesarCipher()
 		playsound("DecipherMessage.mp3")
-		print("     ", secret_messages[0])
+		print("     ", secret_messages[10])
 		message = getMessage()
 		print()
 		playsound('MessageClueObtained.mp3')
 		playsound('SecretClue.mp3')
 		playsound('WriteTheClue.mp3')
 		key = getKey()
+		if key == 13:
+
+			match = True
+			playsound("rightDecrypt.mp3")
+			playsound("GoldCoin.mp3")
+			time.sleep(2)
+			playsound("secretMessageSpecies.mp3")
+			time.sleep(2)
+			playsound("seePictureAgain.mp3")
+			GUI_Creation()
+
+		else:
+
+			playsound("wrongPassword.mp3")
+
 		print()
 		print('        Your translated text is: ')
 		print()
 		print("     ", getTranslatedMessage(message, key))
-		time.sleep(50)
+		
+		time.sleep(70)
+
+		
+		print()
+		
+		match = False
+		del BirdGuess_list_k[index]
+		del BirdGuess_sci_k[index]
+		del BirdGuess_Spanish_k[index]
+		del BirdGuess_english_k[index]
+		del BirdGuess_french_k[index]
+		del BirdGuess_german_k[index]
+		del BirdGuess_chinese_k[index]
+		del BirdGuess_pinyin_k[index]
+		IndexCreation()
+		secretSize = BirdGuess_list_k[index][1]
+		
 		Challenge3()
 		GUI_Creation()
 		info_display()

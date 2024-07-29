@@ -109,9 +109,61 @@ secret_messages = ['''   Ftq itufq-fmuxqp wufq (Qxmzge xqgogdge) ue m eymxx dmbf
 		cthih pgt qjxai xc igtt rpcdexth, duitc xc rajbeh du dgrwxsh dg diwtg texewnith. Iwt cthi xh p hwpaadl 
 		rje du ilxvh, pcnlwtgt ugdb 10–25 btigth je xc p igtt. Rajirwth pgt jhjpaan 1-2 lwxit-dg-qajxhw-ixcvts 
 		tvvh. Cdlwtgt xh iwt rgpct wplz epgixrjapgan rdbbdc, qji xi xh hixaa lxstan sxhigxqjits. Wdltktg, xi 
-		xh rdchxstgts iwgtpitcts xc Btmxrd, tcspcvtgts xc Ta Hpakpsdg, pcs pi adl gxhz xc Pgvtcixcp.'''
+		xh rdchxstgts iwgtpitcts xc Btmxrd, tcspcvtgts xc Ta Hpakpsdg, pcs pi adl gxhz xc Pgvtcixcp.''',
+		'''Nrvdinji'n cvrf (Wpozj nrvdinjid) dn v gvmbz wdmy nkzxdzn di ocz Vxxdkdomdajmhzn jmyzm. Ocdn nkzxdzn 
+		rvn ivhzy vaozm Rdggdvh Nrvdinji, v Wmdodnc ivopmvgdno. Do dn xjggjlpdvggt fijri vn ocz bmvnncjkkzm cvrf 
+		jm gjxpno cvrf, vn do dn qzmt ajiy ja Vxmdydyvz (gjxpnon viy bmvnncjkkzmn) viy rdgg qjmvxdjpngt zvo ocznz 
+		dinzxon rczizqzm oczt vmz vqvdgvwgz. Oczdm wmzzydib cvwdovo dn kmvdmdz viy ymt bmvnngviyn di rznozmi Ijmoc 
+		Vhzmdxv. Oczt wpdgy v nodxf izno di v omzz jm ncmpw jm ji v xgdaa zybz. Ocdn nkzxdzn dn v gjib-ydnovixz 
+		hdbmvio, rdiozmdib di Vmbziodiv; do cvn wzzi mzxjmyzy vn v qvbmvio di izdbcwjmdib Xcdgz, di ocz dngviy 
+		xjpiomdzn ja ocz Yjhdidxvi Mzkpwgdx, viy Omdidyvy viy Ojwvbj, viy di Ijmrvt. Ocdn nkzxdzn jm don dhhzydvoz 
+		kmzyzxznnjm dn ocz vixznojm ja ocz BvgÜkvbjn cvrf, vn yzhjinomvozy wt mzxzio mznzvmxc. Oczi gvozm ydqzmbzy 
+		amjh ocz hvdigviy wdmyn kzmcvkn 300,000 tzvmn vbj, v qzmt ncjmo odhz di zqjgpodji. Nrvdinji'n cvrf dn v 
+		mvkojm viy v hzydph-nduzy hzhwzm ja ocz bzipn Wpozj. Do wmjvygt jqzmgvkn di nduz rdoc ocz mzy-ovdgzy cvrf 
+		(W. evhvdxzindn), v mzgvozy nkzxdzn ajpiy vn v wmzzydib mzndyzio vghjno ocmjpbcjpo Ijmoc Vhzmdxv. Nrvdinji'n 
+		cvrf dicvwdon Ijmoc Vhzmdxv hvdigt di ocz nkmdib viy nphhzm, viy rdiozmn di Njpoc Vhzmdxv. Wmzzydib vmzvn 
+		dixgpyz njpoc-xziomvg Vgwzmov, xziomvg Nvnfvoxczrvi, njpocrznozmi Hvidojwv, viy rzno viy njpoczmi Hdiiznjov. 
+		Oczt rdgg wmzzy vn avm ijmoc vn zvno-xziomvg Vgvnfv, viy njpocrznozmi Tpfji. Wmzzydib xjiodipzn njpoc ocmjpbc 
+		ocz zvnozmi kvmon ja Rvncdiboji viy Jmzbji, gjxvggt oj ocz xziomvg qvggzt ja Xvgdajmidv, Vmdujiv, Izr Hzsdxj, 
+		Xjgjmvyj, viy hjno ja Ozsvn. Ocz zvnozmi kvmo ja don mvibz dixgpyzn Hdiiznjov, ijmocrznozmi Djrv, hjno ja 
+		Izwmvnfv, Fvinvn, viy Jfgvcjhv, viy vgg wpo zvnozmi Ozsvn. Do kzmdjydxvggt jxxpmn di Djrv viy mvmzgt di 
+		ijmocrznozmi Hdnnjpmd, ijmoczmi Dggdijdn, viy njpocrznozmi Rdnxjindi. Nhvgg kjkpgvodjin rdiozm di njpoczvnozmi 
+		Agjmdyv viy vgjib ocz Ozsvn xjvno, kmjwvwgt cvqdib avdgzy oj adiy ocz rvt njpoc vmjpiy ocz Bpga ja Hzsdxj. 
+		Diydqdypvgn mzkjmozy ijmoc ja ocznz vmzvn di rdiozm (ajm zsvhkgz, ji Xcmdnohvn Wdmy Xjpion) vmz vghjno 
+		diqvmdvwgt hdndyziodadzy wpozjn ja joczm nkzxdzn. Nrvdinji'n cvrfn hjnogt rdiozm ji ocz kvhkvn ja Njpoc 
+		Vhzmdxv di Vmbziodiv, Pmpbpvt, viy njpoczmi Wmvudg. Ocz kjkpgvodjin ja Nrvdinji'n cvrfn wmzzydib di 
+		Xvgdajmidv'n Xziomvg Qvggzt vgnj rdiozm di rznozmi Hzsdxj viy xziomvg Vhzmdxv.''',
+		'''Jxu mxyju-jqybut xqma (Wuhqdequjki qbrysqktqjki) yi q bqhwu ryht ev fhuo ifusyui vekdt yd jhefysqb qdt 
+		ikrjhefysqb udlyhedcudji ev jxu Qcuhysqi. Jxu mxyju-jqybut xqma yi q bqhwu, ijesao xqma. Yj yi sbeiu yd iypu 
+		je jxu Imqydied'i (Rkjue imqydiedy) qdt hut-jqybut xqmai (Rkjue zqcqysudiyi), yji cuqd cuqikhucudji vqbbydw 
+		ibywxjbo qxuqt ev jxu vyhij, qdt ibywxjbo ruxydt jxu bqjjuh. Qtkbj ryhti qhu whuo qrelu qdt mxyju rubem qdt 
+		ed jxu hkcf, myjx vqydj fqbu whuo eh hkveki rqhhydw. Jxu ixehj jqyb yi mxyju myjx q dqhhem rbqsa rqdt duqh 
+		jxu udt jxqj yi sedifyskeki yd vbywxj. Q hkijo-hut ixekbtuh fqjsx yi zkij qi sxqhqsjuhyijys mxud jxu ryht 
+		yi iyjjydw myjx yji mydwi sbeiut. Jxu mydwi qhu tqha qrelu, qtcynut myjx whuo duqh jxu rqiui ev jxu rbqsayix 
+		fhycqho hucywui. Jxu kdtuhmydw yi mxyjyix, myjx ydtyijydsj rhemdyix rqhhydw ed jxu kdtuhmydw seluhji, jxqj 
+		unjudti edje jxu vbqdai qdt jxywxi. Jxu yhyi yi xqpub, jxu suhu yi fqbu whuud, jxu ruqa yi rbqsa myjx q 
+		xehd-sebehut rqiu, qdt jxu vuuj qhu oubbem myjx rbqsa jqbedi. Yccqjkhu ryhti qhu iecumxqj tqhauh jxqd qtkbji; 
+		jxuo cqo qffuqh duqhbo rbqsa yd vqydj bywxj, fqhjyskbqhbo ydtylytkqbi mxe xqlu byjjbu mxyju rubem. Jxu mydw 
+		bydydw yi sedifyskekibo ifejjut rbqsa-qdt-mxyju; jxu hkijo ixekbtuh fqjsx yi qriudj yd oekdwuh ryhti. Jxu 
+		jqyb sxqdwui vhec rhemd myjx iuluhqb tqha rqhi je whuoyix myjx q xqpo tqha rqdt qi jxu ryht qffheqsxui 
+		cqjkhyjo. Jxu rqhu fqhji qhu sebehut cksx byau yd jxu qtkbj. Yji sqbb yi q xywx-fyjsxut sqsabydw au au au..., 
+		myjx q jydabydw gkqbyjo jxqj hucydti iecu ev jxu rbuqjydw ev q weqj eh jxu sqbb ev jxu bqkwxydw wkbb. 
+		Jxu mxyju-jqybut xqma sqd ru vekdt qdomxuhu vhec seqijqb Junqi qdt jxu Hye Whqdtu Lqbbuo je sudjhqb Qhwudjydq, 
+		qi mubb qi cqdo Sqhyrruqd yibqdti ev jxu Buiiuh Qdjybbui, qdt Jhydytqt qdt Jerqwe. Veh xqryjqj, yj fhuvuhi 
+		efud eh iucy-efud huwyedi myjx vum jhuui je xydtuh yji vbywxj. Yj yi dej q cywhqjeho ryht, jxekwx iecu 
+		fefkbqjyedi cqo cqau huwyedqb celucudji mxud veet yi isqhsu. Yj byaui je fuhsx ed rkixui, jhuui, jubufxedu 
+		febui, eh ulud ijqdt qhekdt ed jxu whekdt, qi mubb qi ieqh. Wuduhqbbo, yj fhuvuhi qhyt xqryjqji qdt hqhubo 
+		esskhi yd luho hqydo besqbui.''',
+		'''Uhzzvatoveqf ner oveqf angvir gb gur Nzrevpnf naq pbzcevfr gur ovbybtvpny snzvyl Gebpuvyvqnr. Jvgu 
+		nccebkvzngryl 366 fcrpvrf naq 113 traren, gurl bpphe sebz Nynfxn gb Gvreen qry Shrtb, ohg zbfg fcrpvrf 
+		ner sbhaq va Prageny naq Fbhgu Nzrevpn. Nf bs 2024, 21 uhzzvatoveq fcrpvrf ner yvfgrq nf raqnatrerq be 
+		pevgvpnyyl raqnatrerq, jvgu ahzrebhf fcrpvrf qrpyvavat va cbchyngvba. Uhzzvatoveqf unir inevrq 
+		fcrpvnyvmrq punenpgrevfgvpf gb ranoyr encvq, znarhirenoyr syvtug: rkprcgvbany zrgnobyvp pncnpvgl, 
+		nqncgngvbaf gb uvtu nygvghqr, frafvgvir ivfhny naq pbzzhavpngvba novyvgvrf, naq ybat-qvfgnapr zvtengvba 
+		va fbzr fcrpvrf. Nzbat nyy oveqf, znyr uhzzvatoveqf unir gur jvqrfg qvirefvgl bs cyhzntr pbybe, 
+		cnegvphyneyl va oyhrf, terraf, naq checyrf.'''
 
 ]
 
 
-clues = [12, 19, 11, 23, 8, 3, 13, 15]
+clues = [12, 19, 11, 23, 8, 3, 13, 15, 21, 16, 13]
