@@ -107,13 +107,29 @@ Label(birdGuess_frame, image = birdGuess_image).pack()
 
 birdGuess.mainloop()
 
+
+print()
+print()
+print()
+print(" -------------------------------------------------------------------------------------------------------------------------------")
+print()
+print()
+
+print("                                                       WELCOME TO BIRDGUESS                                                     ")
+print()
+print("                                           Numerical data guessing of bird biodiversity                                         ")
+print()
+print()
+print(" -------------------------------------------------------------------------------------------------------------------------------")
+
+
 print()
 print("     BIRDGUESS - A PROGRAM TO GUESS THE SIZES OF FALCONS AND HUMMINGBIRDS THAT HAVE BEEN SEEN IN BOGOTÁ - COLOMBIA")
 
 print()
 playsound("welcome.mp3")
 playsound("enter_name.mp3")
-username = input("   Please enter your name: ")
+username = input("    Please enter your name: ")
 
 print()
 
@@ -256,14 +272,14 @@ def GUI_Creation():
 	miFrame.pack()
 
 	miImagen = PhotoImage(file = BirdGuess_list_k[index][0])
-	bird_singing_logo = tk.PhotoImage(file="Singing-logo4.png")
+	bird_singing_logo = tk.PhotoImage(file="Singing-logo5.png")
 
 	Label(miFrame, image=miImagen).pack()
 	
 
-	Button = tk.Button(raiz, text = "Close Window", font = ("Comic Sans MS", 11), command = raiz.destroy)
+	Button = tk.Button(raiz, text = "Close Window", font = ("Comic Sans MS", 8), command = raiz.destroy)
 	Button.config(fg = "#fa7704")
-	Button.place(x = 20, y = 150)
+	Button.place(x = 20, y = 115)
 
 	Button_song = tk.Button(raiz, image = bird_singing_logo, command = lambda:bird_singing())
 	Button_song.place(x = 20, y = 20)
@@ -737,13 +753,14 @@ while End == False or lives > 0:
 
 	elif guess == secretSize and attempts <= 7 and len(BirdGuess_list_k) > 1:
 
+		points = points + 10
 		print()
 		print("-------------------------------------------- RESULTS ----------------------------------------------------")
 		print()
 		print("   Congratulations!!! You guessed the size of the bird I was thinking of. You have earned 10 points!!!")
+		print()
 		print("   Now you have: ", points, " points.")
 		#hit = True
-		points = points + 10
 		playsound("Congratulations.mp3")
 		print()
 		print()
