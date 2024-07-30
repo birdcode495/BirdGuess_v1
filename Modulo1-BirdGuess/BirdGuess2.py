@@ -576,7 +576,7 @@ def info_display():
 	playsound("idea-1.mp3")
 	print("     * The secret message about this species is: ")
 	print()
-	print("     ", secret_messages[10])
+	print("       ", secret_messages[10])
 	time.sleep(3)
 	
 info_display()
@@ -773,7 +773,7 @@ while End == False or lives > 0:
 		time.sleep(3)
 		caesarCipher()
 		playsound("DecipherMessage.mp3")
-		print("     ", secret_messages[10])
+		print("       ", secret_messages[10])
 		message = getMessage()
 		print()
 		playsound('MessageClueObtained.mp3')
@@ -786,8 +786,6 @@ while End == False or lives > 0:
 			playsound("rightDecrypt.mp3")
 			playsound("GoldCoin.mp3")
 			time.sleep(2)
-			playsound("secretMessageSpecies.mp3")
-			time.sleep(2)
 			playsound("seePictureAgain.mp3")
 			GUI_Creation()
 
@@ -796,9 +794,11 @@ while End == False or lives > 0:
 			playsound("wrongPassword.mp3")
 
 		print()
+		playsound("secretMessageSpecies.mp3")
+		time.sleep(2)
 		print('        Your translated text is: ')
 		print()
-		print("     ", getTranslatedMessage(message, key))
+		print("       ", getTranslatedMessage(message, key))
 		
 		time.sleep(70)
 
